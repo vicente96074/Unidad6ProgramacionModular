@@ -1,5 +1,6 @@
 //Unidad6ProgramacionModular
 package src;
+import java.util.Scanner;
 
 public class Ejercicio5{
 	
@@ -29,7 +30,7 @@ public class Ejercicio5{
 	}
 	
 	private void incisoB(){
-		int[] notasAlumnos = {6, -50};
+		int[] notasAlumnos = {1, -50};
 		int sumaNotas = 0;
 		double promedio;
 		for(int i=0; i<notasAlumnos.length; i++){
@@ -59,4 +60,5 @@ public class Ejercicio5{
 	public static void main(String[] args){
 		Ejercicio5 ejercicio5 = new Ejercicio5();
 	}
+	Scanner entrada = new Scanner(System.in);
 }
